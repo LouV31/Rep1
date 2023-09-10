@@ -1,0 +1,208 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    margin-left: 40vh;
+    margin-right: 40vh;
+}
+
+.head-container {
+    display: flex;
+    height: 25vh;
+    width: 100%;
+}
+
+.head-container > .left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(166, 146, 207);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.head-container > .left > .photo-container {
+    position: absolute;
+    background-color: white;
+    width: 265px;
+    height: 265px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -35%);
+    border-radius: 50%;
+    
+
+}
+.head-container > .left > .photo-container > img{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.head-container > .right {
+    position: relative;
+    width: 65%;
+    height: 100%;
+
+}
+
+.head-container > .right > #name{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(166, 146, 207);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head-container > .right > #surname{
+    position: absolute;
+    top: 62.5%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(118, 118, 118);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body-container{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+}
+
+.body-container > .left{
+    position: relative;
+    width: 41.5%;
+    height: 100%;
+    margin-top: 5%;
+    background-color: rgb(166, 146, 207);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    width: 75%;
+}
+
+li{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.body-container > .left > .contact-box {
+    display: block;
+    position: absolute;
+    width: 75%;
+    height: 20%;     
+}
+
+.section-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 450;
+}
+
+hr{
+    border: 0.75px solid rgb(59, 59, 59);
+    margin-top: 7px;
+    margin-bottom: 25px;
+
+}
+
+.section-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+
+}
+
+.skills-bar{
+    display: flex;
+    margin: 15px 15px 15px 0px;
+    width: 45%;
+    height: auto;
+    background-color: rgb(188, 188, 188);
+    border-radius: 50px;
+}
+
+#rhino{
+    background-color: rgb(89, 89, 89);
+    width: 90%;
+    height: 12px;
+    border-radius: 50px;
+}
+
+#enscape{
+    background-color: rgb(89, 89, 89);
+    width: 80%;
+    height: 12px;
+    border-radius: 50px;
+}
+
+#illustrator{
+    background-color: rgb(89, 89, 89);
+    width: 55%;
+    height: 12px;
+    border-radius: 50px;
+}
+
+#img1{
+    width: 15%;
+}
+#photoshop{
+    background-color: rgb(89, 89, 89);
+    width: 40%;
+    height: 12px;
+    border-radius: 50px;
+}
+
+#indesign{
+    background-color: rgb(89, 89, 89);
+    width: 65%;
+    height: 12px;
+    border-radius: 50px;
+}
+
+
+.body-container > .right{
+    position: relative;
+    width: 65%;
+    height: 100%;
+
+}
+
+.body-container > .right > ul > li > .aboutme-box > .section-text{
+    margin-left: 2%;
+    text-align: justify;
+}
+
+.body-container > .right > ul > li > .aboutme-box > .section-title{
+    
+    margin-left: 10%;
+}
+
+.body-container > .right > ul > li > .education-box > .section-title{
+    
+    margin-left: 10%;
+}
+.body-container > .right > ul > li > .work-box > .section-title{
+    
+    margin-left: 10%;
+}
